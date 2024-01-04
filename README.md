@@ -1,8 +1,115 @@
-# React + Vite
+# Messaging Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Messaging Web Application, a project created by Narendra.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application is designed to provide a messaging platform with a frontend built using React and a backend powered by Django Rest Framework.
+
+## Screenshots
+
+Here are some screenshots showcasing the views of the application:
+
+### 1. *login*
+   ![login](samples/login.png)
+
+### 2. *dashboard*
+   ![dashboard](samples/dashboard.png)
+
+### 3. *create and delete users*
+   ![dashboard](samples/create_and_delete_users.png)
+
+### 4. *search users and select and create group*
+   ![search users and select and create group](samples\search_users_and_select_and_create_group.png)
+
+
+### 5. *selected users*
+   ![dashboard](samples/selected_users.png)
+
+### 5. *chat messages and likes*
+   ![chat messages and likes](samples/chat_mesages_and_likes.png)
+
+
+## Setup Instructions
+
+To set up and run the application locally, follow these steps:
+
+### Frontend (React)
+
+1. Navigate to the `frontend` directory:
+
+    ```bash
+    cd frontend
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Run the development server:
+
+    ```bash
+    npm run dev # for local run
+    ```
+
+   The application will be accessible at `http://localhost:3000`.
+
+### Backend (Django Rest Framework)
+
+1. Create a virtual environment (recommended):
+
+    ```bash
+    python -m venv venv
+2. Activate the virtual environment:
+
+    - On Windows:
+
+        ```bash
+        venv\Scripts\activate
+        ```
+
+    - On macOS/Linux:
+
+        ```bash
+        source venv/bin/activate
+        ```
+
+3. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+
+4. Navigate to the `backend` directory:
+
+    ```bash
+    cd backend
+    ```
+
+5. Apply migrations:
+
+    ```bash
+    python manage.py makemigrations
+    python manage.py migrate
+    ```
+
+6. Run the development server:
+
+    ```bash
+    python manage.py runserver
+    ```
+
+   The backend will be accessible at `http://localhost:8000`.
+
+    Now, you should have both the frontend and backend servers running locally. Open your web browser and go to `http://localhost:3000` to access the messaging application.
+
+    Feel free to customize this README to provide more specific details about your application and its features.
+
+7. Run Test Cases:
+
+    ```bash
+    python manage.py test
+    ```
