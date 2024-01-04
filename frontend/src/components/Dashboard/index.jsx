@@ -42,7 +42,7 @@ function index() {
       clearInterval(id)
     }
 
-    getGroups()
+    // getGroups()
   }, [])
 
 
