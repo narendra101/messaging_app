@@ -1,0 +1,12 @@
+:root {
+    --rk-login-container-bg-color: rgb(2, 65, 93);
+    --rk-login-container-text-color: white;
+    --rk-base-background-color: #1f5192;
+}
+
+
+.base-container {
+    background-color: var(--rk-base-background-color);
+    min-height: 100vh;
+    width: 100vw;
+}

@@ -1,0 +1,64 @@
+.dashboard-container li:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.message {    
+    margin: 10px 0px;    
+    /* display: flex; */
+}
+
+.selected-users-box {
+    /* background-color: red; */
+}
+
+.msg-left {
+    text-align: left;
+    background-color: rgba(35, 49, 95, 0.5);
+    color: white;
+    align-self: flex-start;
+}
+
+.message-text {
+    background-color: rgb(66, 35, 78);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.msg-right {
+    text-align: right;
+    background-color: rgb(52, 41, 55);
+    align-self: flex-end;
+}
+
+.like {
+    padding: 10px;
+    display: inline;
+    color: white;
+    cursor: pointer;
+}
+
+.liked {
+    color: blue;
+    cursor: pointer;
+}
+
+.chat-area {
+    height: calc(100vh - 150px);    
+    overflow-y: scroll;    
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.groups-container {
+    height: calc(100vh - 70px) !important;    
+    overflow-y: scroll;            
+}
+
+::-webkit-scrollbar {
+    /* display: none; */
+    width: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(54, 17, 148);
+}

@@ -1,0 +1,13 @@
+.login-container {
+    background-color: var(--rk-login-container-bg-color);
+    color: var(--rk-login-contianer-text-color);
+    min-width: 400px;
+}
+
+.login-container label {
+    color: rgb(139, 212, 249); 
+}
+
+.login-container input::placeholder {
+    color: rgb(176, 141, 141);
+}
