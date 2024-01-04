@@ -94,6 +94,9 @@ To set up and run the application locally, follow these steps:
     ```bash
     python manage.py makemigrations
     python manage.py migrate
+    # create a admin user from admin page by creating super user in django admin pannel and perform actions
+    python manage.py createsuperuser <user>
+    # login and perform actions
     ```
 
 6. Run the development server:
