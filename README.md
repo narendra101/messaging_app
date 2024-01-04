@@ -107,9 +107,7 @@ To set up and run the application locally, follow these steps:
 
    The backend will be accessible at `http://localhost:8000`.
 
-    Now, you should have both the frontend and backend servers running locally. Open your web browser and go to `http://localhost:3000` to access the messaging application.
-
-    Feel free to customize this README to provide more specific details about your application and its features.
+    Now, you should have both the frontend and backend servers running locally. Open your web browser and go to `http://localhost:3000` to access the messaging application.    
 
 7. Run Test Cases:
 
