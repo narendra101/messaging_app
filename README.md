@@ -20,7 +20,7 @@ Here are some screenshots showcasing the views of the application:
    ![dashboard](samples/create_and_delete_users.png)
 
 ### 4. *search users and select and create group*
-   ![search users and select and create group](samples\search_users_and_select_and_create_group.png)
+   ![search users and select and create group](samples/search_users_and_select_and_create_group.png)
 
 
 ### 5. *selected users*
